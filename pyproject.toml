@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CatResponse"
+version = "0.1.0"
+description = "Return images from https://http.cat/ in your api"
+authors = [
+  { name="Leandro Mani" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
